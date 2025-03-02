@@ -98,8 +98,6 @@ $$AP_\text{VOC} \geq AP_\text{COCO} \geq AP_\text{AUC}$$
 confirming that our implementation is correct.  
 
 ## **Model Training**  
-*Implemented in* `model.ipynb`  
-
 ### 1️⃣ **Data Splitting**  
 - Applied an **80-20 train-test split**, with **10% of training data for validation**.  
 - **Corrupted images** with incorrect labels were automatically filtered out during training.  
